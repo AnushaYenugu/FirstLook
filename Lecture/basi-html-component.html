@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic HTML Component</title>
+    </head>
+<body>
+    <h1>Header</h1>
+    <h2>Stockholm</h2>
+    <h3>stockholm</h3>
+    <h4>stockholm</h4>
+    <h5>stockholm</h5>
+    <h6>stockholm</h6>
+
+    <p>Stockholm</p>
+    <hr/>
+
+    <a href="http://www.google.com">Link to Google</a>
+    <div>
+        <img src="IMG/java_logo_horizontal.png" alt="A cup of coffe with the word Java under it." width="200px">
+    </div>
+
+    <hr>
+    <p>This is a <b> bold text</b></p>
+    <p> This is <strong>Strongly important text</strong>strong></p>
+    <p>This is <i>italic text</i></p>
+    <p>This is <em>emphasized text</em></p>
+    <p>This is <mark>highlighted</mark></p>
+    <p>This is <code>computer code</code></p>
+    <p>This is <small>smaller</small>.</p>
+    <p>This is <sub>subscript</sub> and <sup>superscript</sup> text</p>
+    <p>This is <del>deleted text</del></p>
+    <p>This is <ins>inserted text</ins></p>
+    <hr>
+    <ul type="square">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ul>
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>NAME</td>
+                <td>EMAIL</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Simon</td>
+                <td>simon@lexicon.se</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Åsa</td>
+                <td>asa@lexicon.se</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <fieldset>
+        <legend>Register Form</legend>
+        <form action="#">
+            <label for="firstname">First Name</label><br/>
+            <input type="text" name="firstname" id="firstname"><br>
+
+            <label for="lastname">Last Name</label><br>
+            <input type="text" name="lastname" id="lastname"><br/>
+
+            <label for="birthdate">Birth Date:</label><br>
+            <input type="Date" name="birthdate" id="birthdate"><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password"><br>
+
+            <fieldset>
+                <legend>Hobbies</legend>
+                <input type="checkbox" name="hobby" value="sport" id="sport">
+                <label for="sport">Sport</label>
+                <input type="checkbox" name="hobby" value="music" id="music">
+                <label for="music">Music</label>
+                <input type="checkbox" name="hobby" value="programming" id="programming">
+                <label for="programming">Programming</label>    
+            </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </fieldset> 
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </fieldset>
+</body>
+</html>
